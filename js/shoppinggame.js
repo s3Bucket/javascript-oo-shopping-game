@@ -20,7 +20,9 @@ function Product(id, name, price, expiryDate) {
     this.expiryDate = expiryDate;
 }
 // Complete the dateDiff function
-const dateDiff = (date1, date2) => {};
+const dateDiff = (date1, date2) => {
+    return Math.round((Math.abs(date2-date1))/(1000*60*60*24));
+};
 
 // Here, use Object.defineProperty to create property - daysToExpire
 
