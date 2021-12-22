@@ -30,7 +30,7 @@ Object.defineProperty(
     "daysToExpire", 
     {
         get: function() {
-            
+            return dateDiff(this.expiryDate, new Date())
         }
     }
 );
