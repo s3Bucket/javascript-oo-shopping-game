@@ -8,9 +8,9 @@ let player = {
     name: 'unknown',
     score: 0,
     items: 0,
-    getCurrentScore() {return score},
-    addPoints(points) {score = score + points},
-    deductPoints(points) {score = score - points}
+    getCurrentScore() {return this.score},
+    addPoints(points) {this.score = this.score + points},
+    deductPoints(points) {this.score = this.score - points}
 }
 // Define the Product class - write the Constructor function for Product class here
 class Product {
