@@ -5,7 +5,7 @@ const score = 0
 const items = 0
 // Define the player object here
 let player = {
-    name: '',
+    name: 'unknown',
     score: 0,
     items: 0,
     getCurrentScore() {return score},
