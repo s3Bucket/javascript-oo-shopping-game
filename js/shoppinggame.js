@@ -13,11 +13,11 @@ let player = {
     deductPoints(points) {this.score = this.score - points}
 }
 // Define the Product class - write the Constructor function for Product class here
-function Product(id, name, price, expireDate) {
+function Product(id, name, price, expiryDate) {
     this.id = id,
     this.name  = name,
     this.price  = price,
-    this.expireDate  = expireDate
+    this.expiryDate  = expiryDate
 }
 // Complete the dateDiff function
 const dateDiff = (date1, date2) => {};
